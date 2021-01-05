@@ -12,6 +12,9 @@ body {
 img {
     max-width: 100%;
 }
+.section {
+    margin-bottom: 3rem;
+}
 .header{
     background-image: url("/assets/img/top-banner.png");
     background-repeat: no-repeat;
@@ -30,4 +33,38 @@ img {
 
 .header__name {
     color: orange;
+}
+
+.header__link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient( 45deg, lightSalmon, tomato);
+}
+
+.header__description {
+    color: dimgray;
+    margin-bottom: 15px;
+}
+
+.dream-section {
+    display: flex;
+    background-image: url("/assets/img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-section__img{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    order: -1;
+}
+
+
+.dream__title {
+    font-size: 40px;
 }
